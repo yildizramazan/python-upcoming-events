@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-chrome_drive_path = "/Users/ramazanyildiz/development/chromedriver-mac-arm64"
+chrome_drive_path = "..." #!!! use your own chrome drive path
 ser = Service(chrome_drive_path)
 driver = webdriver.Chrome(service=ser)
 
